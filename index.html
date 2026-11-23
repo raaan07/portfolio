@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ryan Moore</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="grid-container">
+    <aside>
+        <img id="portrait" src="images/ryanportrait1.jpeg" alt="Image of me, Ryan Moore.">
+    </aside>
+    <header>
+        <h1 id="name"><i>I'm</i> <span>Ryan Moore</span></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a nibh a enim pretium congue sit amet sed odio. Fusce posuere, quam et euismod dapibus, turpis tellus venenatis sapien, eget semper urna dolor eget sem.</p>
+    </header>
+
+    <nav>
+        <button class="navlink active" data-target="projects">Projects</button>
+        <button class="navlink" data-target="resume">Resume</button>
+        <button class="navlink" data-target="future">Future</button>
+    </nav>
+    
+    <main>
+        <section id="projects" class="tab-content active-content">
+            <div class="arm" id="p1"></div>
+            <div class="arm" id="p2"></div>
+            <div class="arm" id="p3"></div>
+        </section>
+
+        <section id="resume" class="tab-content">
+            <iframe src="images/resume_placeholder.pdf" height="900px" style="aspect-ratio: 8.5 / 11;"></iframe>
+        </section>
+
+        <section id="future" class="tab-content">
+            <h2>Future</h2>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ryan Moore</p>
+        <p>Contact Me: <a href="tel:+16146578549">+1 (614) 657-8549</a> | <a href="mailto:rpm7176@gmail.com">rpm7176@gmail.com</a></p>
+    </footer>
+
+</body>
+</html>
